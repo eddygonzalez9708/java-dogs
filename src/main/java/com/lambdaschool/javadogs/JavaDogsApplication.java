@@ -9,6 +9,5 @@ public class JavaDogsApplication {
     public static void main(String[] args) {
         SpringApplication.run(JavaDogsApplication.class, args);
     }
-
 }
 
