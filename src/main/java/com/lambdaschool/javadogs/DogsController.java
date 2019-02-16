@@ -111,5 +111,11 @@ public class DogsController {
                 .body(resource);
     }
 
-
+    @DeleteMapping("/dogs/{id}")
+    public ResponseEntity<?> deleteDog(@PathVariable Long id) {
+        dogsrepos.deleteById(id);
+        return ResponseEntity
+                .status(202)
+                .body("Successfully deleted the dog with the id " + id);
+    }
 }
