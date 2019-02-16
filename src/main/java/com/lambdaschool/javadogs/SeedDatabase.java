@@ -16,8 +16,8 @@ public class SeedDatabase {
             log.info("Seeding " + dogsrepos.save(new Dogs("Springer", 50, false)));
             log.info("Seeding " + dogsrepos.save(new Dogs("Bulldog", 50, true)));
             log.info("Seeding " + dogsrepos.save(new Dogs("Collie", 50, false)));
-            log.info("Seeding " + dogsrepos.save(            new Dogs("Boston Terrie", 35, true)));
-            log.info("Seeding " + dogsrepos.save( new Dogs("Corgie", 35, true)));
+            log.info("Seeding " + dogsrepos.save(new Dogs("Boston Terrie", 35, true)));
+            log.info("Seeding " + dogsrepos.save(new Dogs("Corgie", 35, true)));
         };
     }
 }
